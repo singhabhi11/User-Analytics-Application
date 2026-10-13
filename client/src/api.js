@@ -1,5 +1,5 @@
 const BASE = (
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api"
+  import.meta.env.VITE_API_BASE_URL || "https://user-analytics-application-nhfz.onrender.com/api"
 ).replace(/\/$/, "");
 
 async function get(path) {
